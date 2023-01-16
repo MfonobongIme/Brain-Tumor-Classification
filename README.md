@@ -7,7 +7,7 @@ This model is a deep learning-based classifier that can identify the presence of
 ## Usage
 
 To use the model, you will need to provide an MRI scan in the form of a 3D numpy array. The model will then output a probability score indicating the likelihood of the presence of a brain tumor in the scan.
-Run the `mainTest.py` file to test on your image
+Run the `app.py` file built with flask to test on your image
 
 ## Requirements
 
@@ -15,3 +15,4 @@ Run the `mainTest.py` file to test on your image
 - TensorFlow 2.0 or higher
 - Numpy
 - Scipy
+- Flask
